@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_image_generation/feature/prompt/ui/create_prompt_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MainApp());
 }
 
