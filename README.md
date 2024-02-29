@@ -1,3 +1,3 @@
-# flutter_image_generation
+# Generate Images with Midjourney
 
-A new Flutter project.
+An app to generate images with Midjourney API made with Flutter
