@@ -41,7 +41,8 @@ class _CreatePromptScreenState extends State<CreatePromptScreen> {
                     children: [
                       Expanded(
                         child: const Center(
-                          child: CircularProgressIndicator(),
+                          child: Text(
+                              'Enter your prompt / If entered the prompt, wait for the image to generate'),
                         ),
                       ),
                       const SizedBox(height: 16),
